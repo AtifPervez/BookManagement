@@ -8,6 +8,10 @@ router.post('/createUser',userController.createUser)
 
 router.post('/createBook',bookController.createBook)
 
+router.get('/getBook',bookController.getBook)
+
+router.get('/getBookByParams/:bookId',bookController.getBookByParams)
+
 
 
 
